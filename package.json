@@ -1,6 +1,6 @@
 {
-  "name": "discord-rpc",
-  "version": "4.0.1",
+  "name": "@raph9213/discord-rpc",
+  "version": "4.1",
   "description": "A simple RPC client for Discord",
   "keywords": [
     "discord",
@@ -11,15 +11,15 @@
   "main": "src/index.js",
   "jsdelivr": "browser.js",
   "unpkg": "browser.js",
-  "author": "snek <me@gus.host>",
+  "author": "Raph9213 <me@raph9213.xyz>",
   "license": "MIT",
-  "homepage": "https://github.com/discordjs/RPC#readme",
+  "homepage": "https://github.com/Raph9213/RPC#readme",
   "bugs": {
-    "url": "https://github.com/discordjs/RPC/issues"
+    "url": "https://github.com/Raph9213/RPC/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/discordjs/RPC.git"
+    "url": "git+https://github.com/Raph9213/RPC.git"
   },
   "scripts": {
     "lint": "eslint src test --ext=js",
