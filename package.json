@@ -22,7 +22,7 @@
     "url": "git+https://github.com/Raph9213/RPC.git"
   },
   "scripts": {
-    "lint": "eslint src test --ext=js",
+    "lint": "eslint src test --ext=js --fix",
     "docs": "mkdir -p docs-out && docgen --source src --output docs-out/master.json --jsdoc jsdoc.json --custom docgen.json",
     "example": "electron example/main.js",
     "build:browser": "webpack-cli",

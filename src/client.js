@@ -527,9 +527,12 @@ class RPCClient extends EventEmitter {
         buttons: args.buttons,
         instance: !!args.instance,
         name: args.name, // name showed after the "Playing "
-        type: args.type, // 0 = playing, 1 = streaming, 2 = listening, 3 = watching, 4 = custom (emoji), 5 = competing
-        status_display_type: args.statusDisplayType, // 0 = show name, 1 = show state, 2 = show details
-        flags: args.flags, // see https://discord.com/developers/docs/events/gateway-events#activity-object-activity-flags
+        // 0 = playing, 1 = streaming, 2 = listening, 3 = watching, 4 = custom, 5 = competing
+        type: args.type,
+        // 0 = show name, 1 = show state, 2 = show details
+        status_display_type: args.statusDisplayType,
+        // see https://discord.com/developers/docs/events/gateway-events#activity-object-activity-flags
+        flags: args.flags,
       },
     });
   }
