@@ -1,5 +1,5 @@
 {
-  "name": "@raph9213/discord-rpc",
+  "name": "@soleil-des-chats/discord-rpc",
   "version": "4.1.1",
   "description": "A simple RPC client for Discord",
   "keywords": [
@@ -11,16 +11,16 @@
   "main": "src/index.js",
   "jsdelivr": "browser.js",
   "unpkg": "browser.js",
-  "author": "Raph9213 <me@raph9213.xyz>",
+  "author": "",
   "types": "types/index.d.ts",
   "license": "MIT",
-  "homepage": "https://github.com/Raph9213/RPC#readme",
+  "homepage": "https://github.com/soleil-des-chats/RPC#readme",
   "bugs": {
-    "url": "https://github.com/Raph9213/RPC/issues"
+    "url": "https://github.com/soleil-des-chats/RPC/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Raph9213/RPC.git"
+    "url": "git+https://github.com/soleil-des-chats/RPC.git"
   },
   "scripts": {
     "lint": "eslint src test --ext=js --fix",
